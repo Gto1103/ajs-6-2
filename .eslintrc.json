@@ -20,6 +20,12 @@
 			"error",
 			"LabeledStatement",
 			"WithStatement"
-	  ]
+		],
+		"no-param-reassign": [
+			"error", {
+				"props": true,
+				"ignorePropertyModificationsFor": ["item"]
+			}
+		]
     }
 }
